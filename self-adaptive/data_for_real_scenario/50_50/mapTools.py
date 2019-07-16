@@ -146,7 +146,7 @@ def initialmapwithknowngrid_ratio (grid_x, grid_y, grid_z, privacy_threshold, pr
     occ_grid_known = copy.deepcopy(occ_grid)
 
     map_volume = grid_x * grid_y * grid_z
-    restricted_area_num = map_volume * privacy_threshold
+    restricted_area_num = round(map_volume * privacy_threshold)
 
     occ_grid_know_ratio = restricted_area_num * exploraton_rate
 
@@ -188,8 +188,8 @@ def initialmapwithknowngrid_ratio (grid_x, grid_y, grid_z, privacy_threshold, pr
             for k in range(grid_z):
                 if occ_grid_known[i][j][k] != occ_grid[i][j][k]:
                     a += 1
-    # print(restricted_area_num, a, (grid_x * grid_y * grid_z * privacy_threshold))
-    exp_rate = 1 - a / (grid_x * grid_y * grid_z * privacy_threshold)
+    # print(privacy_threshold, restricted_area_num, a, restricted_area_num )
+    exp_rate = 1 - a / restricted_area_num 
     # print(occ_grid, occ_grid_known)
     print("\033[94m exploration rate: \033[0m", exp_rate)
 

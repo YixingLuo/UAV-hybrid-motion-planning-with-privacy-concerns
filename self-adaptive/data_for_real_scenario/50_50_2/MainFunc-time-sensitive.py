@@ -18,23 +18,20 @@ from SensorConfigOnline import Astar_Sensor_Config_online
 
 from log import Log
 # num_of_occ_grid = 2
-num_list = [0,7,13,17]
+num_list = [0,7,17,13]
 for round in range(len(num_list)):
     # num = round + 1
     num = num_list[round]
     # num = 10
 
-    for ts in range (3):
-        # alpha_list = [8,2,4]
-        # alpha = alpha_list[ts]
-        # beta_list = [8,2,4]
-        # beta = beta_list[ts]
-        alpha = 8
-        beta = 8
-        viewradius_list = [1,2,3]
-        viewradius = viewradius_list[ts]
+    for ts in range (4):
+        alpha_list = [4/2, 5/3, 6/4, 7/5]
+        alpha = alpha_list[ts]
+        beta_list = [3/2, 4/3, 5/4, 6/5]
+        beta = beta_list[ts]
+        viewradius = 2.5
         preference = 1
-        log_tmp = Log(__name__, log_cate="results-exploration-time" + str(beta) + "-" + str(alpha) + "-viewradius" + str(viewradius) + "-data" + str(num))
+        log_tmp = Log(__name__, log_cate="results-exploration-time" + str(beta) + "-" + str(alpha) + "-data" + str(num))
         log = log_tmp.getlog()
 
         exploration_rate_list = [0.1, 0.3, 0.5, 0.7, 0.9]
@@ -119,8 +116,8 @@ for round in range(len(num_list)):
                 config = configure(grid_x, grid_y, grid_z, safety_threshold, privacy_threshold, privacy_radius,
                                    starting_point,
                                    end_point, viewradius, alpha, beta, exploration_rate, preference)
-                T_budget = config.T_budget
-                T_optimal = config.T_optimal
+                T_budget = alpha * (abs(x1 - x2) + abs(y1 - y2) + abs(z1 - z2))
+                T_optimal = beta * (abs(x1 - x2) + abs(y1 - y2) + abs(z1 - z2))
                 log.info(
                     "Iteration: %d; Configuration: grid: %d, safety_threshold: %f, privacy_threshold: %f, the starting point: [%d, %d, %d]; the end point: [%d, %d, %d]; T_budget(alpha): "
                     "%f (%f); "

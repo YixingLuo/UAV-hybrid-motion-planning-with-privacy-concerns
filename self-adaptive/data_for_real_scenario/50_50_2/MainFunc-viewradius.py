@@ -18,26 +18,23 @@ from SensorConfigOnline import Astar_Sensor_Config_online
 
 from log import Log
 
-# num_of_occ_grid = 2
-num_list = [100]
-for round in range(len(num_list)):
-    # num = round + 1
-    num = num_list[round]
+num_of_occ_grid = 5
+for round in range(num_of_occ_grid):
+    num = round
     # num = 10
     #
-    for vr in range (1):
-        viewradius_list = [1, 2, 3]
+    for vr in range (5):
+        viewradius_list = [1, 1.5, 2, 2.5, 3]
         viewradius = viewradius_list[vr]
-        viewradius = 2.5
         preference = 1
         log_tmp = Log(__name__, log_cate="results-exploration-viewradius"+ str(viewradius) + "-data" + str(num))
         log = log_tmp.getlog()
 
-        exploration_rate_list = [1]
+        exploration_rate_list = [0.1, 0.3, 0.5, 0.7, 0.9]
         for j in range(len(exploration_rate_list)):
             # exploration_rate_list = [0, 0.2, 0.4, 0.6, 0.8]
             exploration_rate = exploration_rate_list[j]
-            # exploration_rate = 0.9
+            # exploration_rate = 0
             # exploration_rate = 0
             # viewradius = 2.5
             # for j in range(10):
@@ -49,8 +46,8 @@ for round in range(len(num_list)):
             #     rangek = 2
             # else:
             #     rangek = 3
-            rangek = 2
-            for i in range(1, rangek):
+            rangek = 11
+            for i in range(1, 11):
 
                 iteration = i
                 grid_x = 10 + int(i / 100)
@@ -64,23 +61,10 @@ for round in range(len(num_list)):
                 # privacy_threshold = privacy_threshold_list[i % 3]
                 # privacy_radius = [0.5, 1, 2]
 
-                # if num < 5:
-                #     safety_threshold = 0.2
-                #     privacy_threshold = 0.05
-                # elif num < 10:
-                #     safety_threshold = 0.2
-                #     privacy_threshold = 0.1
-                # elif num < 15:
-                #     safety_threshold = 0.2
-                #     privacy_threshold = 0.15
-                # elif num < 20:
-                #     safety_threshold = 0.3
-                #     privacy_threshold = 0.1
-
-                # safety_threshold = 0.2
-                # privacy_threshold = 0.05
-                safety_threshold = 0.091
-                privacy_threshold = 0.096
+                safety_threshold = 0.2
+                privacy_threshold = 0.05
+                # safety_threshold = 0.091
+                # privacy_threshold = 0.096
                 privacy_radius = [1, 1.5, 2]
 
                 # drone parameter
@@ -97,8 +81,8 @@ for round in range(len(num_list)):
                 x1 = 0
                 x2 = grid_x - 1
                 y1 = 0
-                # y2 = grid_y - 1
-                y2 = 0
+                y2 = grid_y - 1
+                # y2 = 0
                 z1 = 0
                 z2 = grid_z - 1
                 starting_point = Point(x1, y1, z1, 1)

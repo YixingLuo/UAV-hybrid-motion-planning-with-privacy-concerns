@@ -313,7 +313,8 @@ class AStar:
         # if self.Toptimal < 0:
         #     self.Toptimal = 0
         if minF.step + 1 > self.Toptimal:
-            time_punishment = math.exp((minF.step + 1 - self.Toptimal) / (self.Tbudget - self.Toptimal))
+            alpha = 100
+            time_punishment = alpha * math.exp((minF.step + 1 - self.Toptimal) / (self.Tbudget - self.Toptimal))
 
         # type1
         # print ("delta_g :", time_punishment * privacy_threat)
@@ -420,25 +421,41 @@ class AStar:
              #"""
             # turn on camera
             if self.flag == 0:
-               self.searchNear(minF, 0, -1, 0, 1)
-               self.searchNear(minF, 0, 1, 0, 1)
-               self.searchNear(minF, -1, 0, 0, 1)
-               self.searchNear(minF, 1, 0, 0, 1)
-               self.searchNear(minF, 0, 0, 1, 1)
-               self.searchNear(minF, 0, 0, -1, 1)
+               # self.searchNear(minF, 0, 1, 0, 1)
+               # self.searchNear(minF, 0, -1, 0, 1)
+               # self.searchNear(minF, -1, 0, 0, 1)
+               # self.searchNear(minF, 1, 0, 0, 1)
+               # self.searchNear(minF, 0, 0, -1, 1)
+               # self.searchNear(minF, 0, 0, 1, 1)
+               actions = [[-1, 0, 0, 1],[1, 0, 0, 1],[0, -1, 0, 1],[0, 1, 0, 1],[0, 0, -1, 1],[0, 0, 1, 1]]
+               actionlist = [0,1,2,3,4,5]
+               np.random.shuffle(actionlist)
+               #
+               for i in range (len(actionlist)):
+                   self.searchNear(minF, actions[actionlist[i]][0], actions[actionlist[i]][1], actions[actionlist[i]][2], actions[actionlist[i]][3])
+
             else:
-               self.searchNear(minF, 0, -1, 0, 1)
-               self.searchNear(minF, 0, 1, 0, 1)
-               self.searchNear(minF, -1, 0, 0, 1)
-               self.searchNear(minF, 1, 0, 0, 1)
-               self.searchNear(minF, 0, 0, 1, 1)
-               self.searchNear(minF, 0, 0, -1, 1)
-               self.searchNear(minF, 0, -1, 0, 2)
-               self.searchNear(minF, 0, 1, 0, 2)
-               self.searchNear(minF, -1, 0, 0, 2)
-               self.searchNear(minF, 1, 0, 0, 2)
-               self.searchNear(minF, 0, 0, 1, 2)
-               self.searchNear(minF, 0, 0, -1, 2)
+               # self.searchNear(minF, 0, 1, 0, 1)
+               # self.searchNear(minF, 0, -1, 0, 1)
+               # self.searchNear(minF, -1, 0, 0, 1)
+               # self.searchNear(minF, 1, 0, 0, 1)
+               # self.searchNear(minF, 0, 0, 1, 1)
+               # self.searchNear(minF, 0, 0, -1, 1)
+               # self.searchNear(minF, 0, 1, 0, 2)
+               # self.searchNear(minF, 0, -1, 0, 2)
+               # self.searchNear(minF, -1, 0, 0, 2)
+               # self.searchNear(minF, 1, 0, 0, 2)
+               # self.searchNear(minF, 0, 0, 1, 2)
+               # self.searchNear(minF, 0, 0, -1, 2)
+
+               actions = [[-1, 0, 0, 1], [1, 0, 0, 1], [0, -1, 0, 1], [0, 1, 0, 1], [0, 0, -1, 1], [0, 0, 1, 1],
+                          [-1, 0, 0, 2], [1, 0, 0, 2], [0, -1, 0, 2], [0, 1, 0, 2], [0, 0, -1, 2], [0, 0, 1, 2]]
+               actionlist = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+               np.random.shuffle(actionlist)
+            #
+               for i in range(len(actionlist)):
+                   self.searchNear(minF, actions[actionlist[i]][0], actions[actionlist[i]][1], actions[actionlist[i]][2],
+                                actions[actionlist[i]][3])
               #"""
             # self.updateNodeHvalue()
 

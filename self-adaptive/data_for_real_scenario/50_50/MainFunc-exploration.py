@@ -9,7 +9,8 @@ from Configure import configure
 import math
 import sys
 from heapq import heappush
-from pathinitial import PathInitial
+# from pathinitial import PathInitial
+from reference_path import PathInitial
 from PathPlanningOnline import Astar_Path_Planning_online
 # from HybridPlanningOnline import Astar_Hybrid_Planning_online
 from HybridPlanning_SA import Astar_Hybrid_Planning_online
@@ -18,7 +19,7 @@ from SensorConfigOnline import Astar_Sensor_Config_online
 from log import Log
 
 # num_of_occ_grid = 2
-num_list = [17]
+num_list = [50]
 for round in range(len(num_list)):
     # num = round + 1
     num = num_list[round]
@@ -29,17 +30,17 @@ for round in range(len(num_list)):
     #     preference_list = [0, 0.5, 1, 2, 4, 8, 16, 32, 64]
     #     preference = preference_list[pk]
     preference = 1
-    log_tmp = Log(__name__, log_cate="results-exploration-viewradius2.5-type8-data" + str(num))
+    log_tmp = Log(__name__, log_cate="results-2-viewradius3-data" + str(num))
     log = log_tmp.getlog()
 
-    exploration_rate_list = [0.1, 0.3, 0.5, 0.7, 0.9]
+    exploration_rate_list = [0]
 
     for j in range(len(exploration_rate_list)):
         # exploration_rate_list = [0, 0.2, 0.4, 0.6, 0.8]
         exploration_rate = exploration_rate_list[j]
         exploration_rate = 0
         # exploration_rate = 0
-        viewradius = 2.5
+        viewradius = 3
         # for j in range(10):
         #     preference_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
         #     preference = preference_list[j]
@@ -50,12 +51,12 @@ for round in range(len(num_list)):
         # else:
         #     rangek = 3
         rangek = 11
-        for i in range(1, 11):
+        for i in range(1, 2):
 
             iteration = i
-            grid_x = 10 + int(i / 100)
-            grid_y = 10 + int(i / 100)
-            grid_z = 10 + int(i / 100)
+            grid_x = 10
+            grid_y = 50
+            grid_z = 50
 
             # safety_threshold, privacy_threshold 固定 0.3 最佳
             # safety_threshold_list = [0.2, 0.3, 0.4]
@@ -64,35 +65,12 @@ for round in range(len(num_list)):
             # privacy_threshold = privacy_threshold_list[i % 3]
             # privacy_radius = [0.5, 1, 2]
 
-            if num < 5:
-                safety_threshold = 0.2
-                privacy_threshold = 0.05
-            elif num < 10:
-                safety_threshold = 0.2
-                privacy_threshold = 0.1
-            elif num < 15:
-                safety_threshold = 0.2
-                privacy_threshold = 0.15
-            elif num < 20:
-                safety_threshold = 0.3
-                privacy_threshold = 0.1
-            # safety_threshold = 0.091
-            # privacy_threshold = 0.096
+            safety_threshold = 0.03136
+            privacy_threshold = 0.046
             privacy_radius = [1, 1.5, 2]
 
-            # drone parameter
-            # x1 = randint(0, grid_x - 1)
-            # y1 = randint(0, grid_y - 1)
-            # z1 = randint(0, grid_z - 1)
-            # x2 = randint(0, grid_x - 1)
-            # y2 = randint(0, grid_y - 1)
-            # z2 = randint(0, grid_z - 1)
-            # while x2==x1 and y2==y1 and z2==z1:
-            #     x2 = randint(0, grid_x - 1)
-            #     y2 = randint(0, grid_y - 1)
-            #     z2 = randint(0, grid_z - 1)
             x1 = 0
-            x2 = grid_x - 1
+            x2 = 0
             y1 = 0
             y2 = grid_y - 1
             z1 = 0
@@ -105,8 +83,8 @@ for round in range(len(num_list)):
             # alpha = alpha_list[i % 10]
             # beta_list = [3/2, 4/3, 5/4, 6/5, 7/6, 8/7, 9/8, 10/9, 11/10, 12/11]
             # beta = beta_list[i % 10]
-            alpha = 5/3
-            beta = 4/3
+            alpha = 12/10
+            beta = 11/10
             # alpha = 10
             # beta = 10
 
@@ -128,13 +106,15 @@ for round in range(len(num_list)):
             SaveMap(config, iteration, exploration_rate, num)
 
             reinitial_flag = 1
-            refpath = []
-            planpath = []
-            no_solution_flag = PathInitial(config, reinitial_flag, iteration, log, num)
-            if no_solution_flag != 1:
-                log.info("Error for no initial solution!")
-                i -= 1
-                continue
+            # refpath = []
+            # planpath = []
+            PathInitial(config, reinitial_flag, iteration, log, num)
+            # print(no_solution_flag)
+            # if no_solution_flag != 1:
+            #     log.info("Error for no initial solution!")
+            #     print("error for no initial solution")
+            #     i -= 1
+            #     continue
 
             # Hybrid
             Astar_Hybrid_Planning_online(config, iteration, log, num)
