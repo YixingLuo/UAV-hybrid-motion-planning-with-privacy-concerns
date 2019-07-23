@@ -11,6 +11,7 @@ import math
 import sys
 from heapq import heappush
 import os
+import random
 
 # from log import Log
 # log = Log(__name__).getlog()
@@ -63,25 +64,66 @@ def PathInitial(config, reinitial_flag, iteration, log, num):
 
     refpath = []
     reference_path = []
+    objective_list = []
     no_solution_flag = 1
     if reinitial_flag == 1:
-        reference_path.append([0,0,0,1])
-        # reference_path.append([1, 0, 0, 1])
-        for i in range (17):
-            reference_path.append([1,i,0,1])
-        for i in range (1, 10):
-            reference_path.append([1,16,i,1])
-        for i in range (17, 25):
-            reference_path.append([1,i,9,1])
-        for i in range (10, 38):
-            reference_path.append([1,24,i,1])
-        for i in range (25, 34):
-            reference_path.append([1,i,37,1])
-        for i in range (38,50):
-            reference_path.append([1,33,i,1])
-        for i in range (34,50):
-            reference_path.append([1,i,49,1])
-        # reference_path.append([1, 49, 49, 1])
+        reference_path.append([0, 0, 0, 1])
+        objective_list.append([1, 0, 0])
+        # objective_list.append([1, 0, 12])
+        # objective_list.append([1, 25, 12])
+        # objective_list.append([1, 25, 31])
+        # objective_list.append([1, 34, 31])
+        # objective_list.append([1, 34, 49])
+        # objective_list.append([1, 49, 49])
+        y_list = [0, 12, 18, 31, 37, 43, 49]
+        x_list = [0, 16, 17, 24, 25, 33, 34 , 49]
+
+        while objective_list[-1] != [1, 49, 49]:
+            index = random.randint(0,1)
+            if index == 0:
+                now_x = objective_list[-1][1]
+                if now_x == x_list[-1]:
+                    continue
+                now_y = objective_list[-1][2]
+                index_x = x_list.index(now_x)
+                now_index_x = random.randint(index_x + 1, len(x_list)-1)
+                objective_list.append([1, x_list[now_index_x], now_y])
+            elif index == 1:
+                now_x = objective_list[-1][1]
+                now_y = objective_list[-1][2]
+                if now_y == y_list[-1]:
+                    continue
+                index_y = y_list.index(now_y)
+                now_index_y = random.randint(index_y + 1, len(y_list) - 1)
+                if y_list[now_index_y] == 0:
+                    continue
+                objective_list.append([1, now_x, y_list[now_index_y]])
+
+        print(objective_list)
+        # objective_list = [[1, 0, 0],[1, 0, 12],[1, 25, 12],[1, 49, 12], [1, 49, 49]]
+        for i in range(1, len(objective_list)):
+            delta_x = objective_list[i][1]-objective_list[i-1][1]
+            delta_y = objective_list[i][2]-objective_list[i-1][2]
+            if delta_x > 0:
+                for j in range(delta_x):
+                    reference_path.append([1, objective_list[i-1][1] + j, objective_list[i-1][2], 1])
+            elif delta_y > 0:
+                for j in range(delta_y):
+                    reference_path.append([1, objective_list[i - 1][1], objective_list[i - 1][2] + j, 1])
+
+        # for i in range(38):
+        #     reference_path.append([1, 0, i, 1])
+        # for i in range (1, 35):
+        #     reference_path.append([1,i,37,1])
+        # for i in range (38, 50):
+        #     reference_path.append([1,34,i,1])
+        # for i in range (25, 34):
+        #     reference_path.append([1,i,37,1])
+        # for i in range (38,50):
+        #     reference_path.append([1,33,i,1])
+        # for i in range (35,50):
+        #     reference_path.append([1,i,49,1])
+        reference_path.append([1, 49, 49, 1])
         reference_path.append([0, 49, 49, 1])
         print(reference_path)
 

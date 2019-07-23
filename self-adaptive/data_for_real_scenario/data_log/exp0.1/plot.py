@@ -3,14 +3,14 @@ import os
 import copy
 
 
-occ_grid = np.load(file="occ_grid_known_initial1.npy")
+occ_grid = np.load(file="occ_grid-10.npy")
 for m in range(10):
     print("The value of x: ", m)
     print(occ_grid[m])
 
 
 path_grid = copy.deepcopy(occ_grid)
-c = np.load(file="plan_path_Hybrid1.npy")
+c = np.load(file="plan_path_Hybrid3.npy")
 # print(c, len(c))
 for i in range(len(c)):
     point = c[i]
@@ -49,7 +49,7 @@ print("pp",path_grid)
 
 
 path_grid = copy.deepcopy(occ_grid)
-c = np.load(file="reference_path1.npy")
+c = np.load(file="reference_path2.npy")
 # print(c, len(c))
 path_grid = copy.deepcopy(occ_grid)
 for i in range(len(c)):

@@ -77,8 +77,8 @@ def Astar_Sensor_Config_online(config, iteration, log, num):
         point = Point(int(trajectory_ref_temp[i][0]),int(trajectory_ref_temp[i][1]),int(trajectory_ref_temp[i][2]),int(trajectory_ref_temp[i][3]))
         trajectory_ref.append(point)
 
-    endtime = time.time()
-    dtime = endtime - starttime
+    # endtime = time.time()
+    # dtime = endtime - starttime
     # print("程序运行时间：%.8s s" % dtime)
 
     path_grid = copy.deepcopy(occ_grid)
@@ -290,6 +290,8 @@ def Astar_Sensor_Config_online(config, iteration, log, num):
     # print("程序运行时间：%.8s s" % dtime)
     print("\033[94m Replan times: \033[0m", replantime)
     log.info("Online_Sensor_Config: Replanning times: %d" % replantime)
+    print("\033[94m Execution time: \033[0m", dtime)
+    log.info("Online_Sensor_Config: Execution time: %d" % dtime)
     #grid_visualization(occ_grid, starting_point, end_point, trajectory_plan, trajectory_ref)
 
     occ_grid_known_name = os.getcwd() +"/data/"+"occ_grid_known" + str(iteration) + ".npy"

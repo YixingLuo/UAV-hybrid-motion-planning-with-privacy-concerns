@@ -70,6 +70,7 @@ for i in range(1, group_num + 1):
 np.savetxt("maplabel_height.txt",maplabel_height,fmt='%d',delimiter=',')
 
 maplabel_height_update = copy.deepcopy(maplabel_height)
+maplabel_privacy_update = copy.deepcopy(maplabel_privacy)
 delta_h = 10
 occ_grid_map = np.zeros((10,50,50))
 num_obstacle = 0

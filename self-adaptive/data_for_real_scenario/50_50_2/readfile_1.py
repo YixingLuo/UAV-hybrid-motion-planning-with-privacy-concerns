@@ -10,7 +10,7 @@ occ_grid_name = "data/"+"occ_grid-50" + ".npy"
 
 occ_grid = np.load(file=occ_grid_name)
 ground = np.zeros((50,50),dtype=int)
-print(occ_grid.shape)
+print(occ_grid)
 obstacle = 0
 privacy = 0
 privacy_num = np.zeros((5,1),dtype=int)

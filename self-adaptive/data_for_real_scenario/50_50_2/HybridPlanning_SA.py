@@ -82,13 +82,11 @@ def Astar_Hybrid_Planning_online(config, iteration, log, num):
         point = Point(int(trajectory_ref_temp[i][0]), int(trajectory_ref_temp[i][1]), int(trajectory_ref_temp[i][2]),
                       int(trajectory_ref_temp[i][3]))
         # if (pri_grid_known[point.x][point.y][point.z] > 0):
-        # print(point)
+        #     print(point)
         trajectory_ref.append(point)
 
-    # print(len(trajectory_ref))
-
-    endtime = time.time()
-    dtime = endtime - starttime
+    # endtime = time.time()
+    # dtime = endtime - starttime
     # print("程序运行时间：%.8s s" % dtime)
 
     path_grid = copy.deepcopy(occ_grid)
@@ -444,12 +442,12 @@ def Astar_Hybrid_Planning_online(config, iteration, log, num):
                         num_of_no_solution += 1
                         # print(occ_grid_known)
                         print(
-                            "Online_Hybrid_Planning: No solution for local planning: from [%d, %d, %d] to [%d, %d, %d]. No soultion flag is %d, PR for PP is %f. length of PP is %d, T plan optimal is %d"
+                            "Online_Hybrid_Planning: No solution for local planning: from [%d, %d, %d] to [%d, %d, %d]. No solution flag is %d, PR for PP is %f. length of PP is %d, T plan optimal is %d"
                             % (
                                 current_p.x, current_p.y, current_p.z, next_p.x, next_p.y, next_p.z, no_solution_flag,
                                 PR_temp_sum_known, length_PP, T_plan_optimal))
                         log.info(
-                            "Online_Hybrid_Planning: No solution for local planning: from [%d, %d, %d] to [%d, %d, %d]. No soultion flag is %d, PR for PP is %f. length of PP is %d, T plan optimal is %d"
+                            "Online_Hybrid_Planning: No solution for local planning: from [%d, %d, %d] to [%d, %d, %d]. No solution flag is %d, PR for PP is %f. length of PP is %d, T plan optimal is %d"
                             % (
                                 current_p.x, current_p.y, current_p.z, next_p.x, next_p.y, next_p.z, no_solution_flag,
                                 PR_temp_sum_known, length_PP, T_plan_optimal))
@@ -613,7 +611,9 @@ def Astar_Hybrid_Planning_online(config, iteration, log, num):
     print("\033[94m Replan times: \033[0m", replantime)
     log.info("Online_Hybrid_Planning: Replanning times: %d" % replantime)
     print("\033[94m No solution times: \033[0m", num_of_no_solution)
-    log.info("Online_Path_Planning: No solution times: %d" % num_of_no_solution)
+    log.info("Online_Hybrid_Planning: No solution times: %d" % num_of_no_solution)
+    print("\033[94m Execution time: \033[0m",  dtime)
+    log.info("Online_Hybrid_Planning: Execution time: %f" %  dtime)
     # grid_visualization(occ_grid, starting_point, end_point, trajectory_plan, trajectory_ref)
 
     occ_grid_known_name = os.getcwd() +"/data/"+"occ_grid_known" + str(iteration) + ".npy"
@@ -630,9 +630,9 @@ def Astar_Hybrid_Planning_online(config, iteration, log, num):
 
     plan_path_Hybrid_name = os.getcwd() +"/data/"+"plan_path_Hybrid" + str(iteration) + ".npy"
     np.save(file=plan_path_Hybrid_name, arr=plan_path)
-    np.save(file=os.getcwd() +"/data/"+"plan_path_Hybrid.npy", arr=plan_path)
-    c = np.load(file=os.getcwd() +"/data/"+"plan_path_Hybrid.npy")
-    print(c, len(c))
+    # np.save(file=os.getcwd() +"/data/"+"plan_path_Hybrid.npy", arr=plan_path)
+    # c = np.load(file=os.getcwd() +"/data/"+"plan_path_Hybrid.npy")
+    # print(c, len(c))
 
     exploration_rate = 0
 

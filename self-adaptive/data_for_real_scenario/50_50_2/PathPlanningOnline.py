@@ -85,8 +85,8 @@ def Astar_Path_Planning_online (config, iteration, log, num):
         #     print(point)
         trajectory_ref.append(point)
 
-    endtime = time.time()
-    dtime = endtime - starttime
+    # endtime = time.time()
+    # dtime = endtime - starttime
     # print("程序运行时间：%.8s s" % dtime)
 
     path_grid = copy.deepcopy(occ_grid)
@@ -237,12 +237,12 @@ def Astar_Path_Planning_online (config, iteration, log, num):
                         num_of_no_solution += 1
                         # print(occ_grid_known)
                         print(
-                            "Online_Hybrid_Planning: No solution for local planning: from [%d, %d, %d] to [%d, %d, %d]. No soultion flag is %d, PR for PP is %f. length of PP is %d, T plan optimal is %d"
+                            "Online_Path_Planning: No solution for local planning: from [%d, %d, %d] to [%d, %d, %d]. No solution flag is %d, PR for PP is %f. length of PP is %d, T plan optimal is %d"
                             % (
                                 current_p.x, current_p.y, current_p.z, next_p.x, next_p.y, next_p.z, no_solution_flag,
                                 PR_temp_sum_known, length_PP, T_plan_optimal))
                         log.info(
-                            "Online_Hybrid_Planning: No solution for local planning: from [%d, %d, %d] to [%d, %d, %d]. No soultion flag is %d, PR for PP is %f. length of PP is %d, T plan optimal is %d"
+                            "Online_Path_Planning: No solution for local planning: from [%d, %d, %d] to [%d, %d, %d]. No solution flag is %d, PR for PP is %f. length of PP is %d, T plan optimal is %d"
                             % (
                                 current_p.x, current_p.y, current_p.z, next_p.x, next_p.y, next_p.z, no_solution_flag,
                                 PR_temp_sum_known, length_PP, T_plan_optimal))
@@ -409,6 +409,8 @@ def Astar_Path_Planning_online (config, iteration, log, num):
     log.info("Online_Path_Planning: Replanning times: %d" % replantime)
     print("\033[94m No solution times: \033[0m", num_of_no_solution)
     log.info("Online_Path_Planning: No solution times: %d" % num_of_no_solution)
+    print("\033[94m Execution time: \033[0m", dtime)
+    log.info("Online_Path_Planning: Execution time: %d" % dtime)
     #grid_visualization(occ_grid, starting_point, end_point, trajectory_plan, trajectory_ref)
 
     occ_grid_known_name = os.getcwd() +"/data/"+"occ_grid_known" + str(iteration) + ".npy"

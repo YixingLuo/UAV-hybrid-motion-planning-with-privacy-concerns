@@ -10,7 +10,7 @@ for m in range(10):
 
 
 path_grid = copy.deepcopy(occ_grid)
-c = np.load(file="plan_path_Hybrid1.npy")
+c = np.load(file="plan_path_Hybrid3.npy")
 # print(c, len(c))
 for i in range(len(c)):
     point = c[i]
@@ -49,7 +49,7 @@ print("pp",path_grid)
 
 
 path_grid = copy.deepcopy(occ_grid)
-c = np.load(file="reference_path1.npy")
+c = np.load(file="reference_path2.npy")
 # print(c, len(c))
 path_grid = copy.deepcopy(occ_grid)
 for i in range(len(c)):

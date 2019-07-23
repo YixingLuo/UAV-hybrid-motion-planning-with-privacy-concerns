@@ -1,14 +1,14 @@
 import numpy as np
 import os
 
-# a=np.loadtxt('1.txt')
-# b=np.reshape(a,(10,10,10))
+a=np.loadtxt('map_10_1.txt')
+occ_grid=np.reshape(a,(10,10,10))
 # print(b)
 # print(type(b))
 occ_grid_name = "data/"+"occ_grid-50" + ".npy"
-# np.save(file=occ_grid_known_name, arr=b)
+np.save(file=occ_grid_name, arr=occ_grid)
 
-occ_grid = np.load(file=occ_grid_name)
+# occ_grid = np.load(file=occ_grid_name)
 ground = np.zeros((50,50),dtype=int)
 print(occ_grid.shape)
 obstacle = 0

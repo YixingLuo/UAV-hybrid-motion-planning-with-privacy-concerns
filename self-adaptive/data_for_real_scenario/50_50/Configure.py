@@ -23,8 +23,8 @@ class configure:
         self.starting_point = starting_point
         self.end_point = end_point
 
-        self.T_budget = 120
-        self.T_optimal = 110
+        self.T_budget = 98 * (5/3)
+        self.T_optimal = 98 * (4/3)
 
         self.viewradius = viewradius
         self.Kca = 10

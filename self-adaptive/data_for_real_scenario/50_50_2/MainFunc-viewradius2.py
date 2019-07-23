@@ -28,14 +28,14 @@ for round in range(len(num_list)):
     # num = 10
     #
     # viewradius_list = [1, 1.5, 2, 2.5, 3]
-    viewradius_list = [1, 1.5, 2, 2.5, 3, 3.5, 4]
+    viewradius_list = [4]
     # viewradius_list.reverse()
     for vr in range (len(viewradius_list)):
 
         viewradius = viewradius_list[vr]
         # viewradius = 2
         preference = 1
-        log_tmp = Log(__name__, log_cate="results-punishment100-viewradius"+ str(viewradius) + "-data" + str(num))
+        log_tmp = Log(__name__, log_cate="results-punishment1-viewradius"+ str(viewradius) + "-data" + str(num))
         log = log_tmp.getlog()
 
         exploration_rate_list = [0]
@@ -54,8 +54,8 @@ for round in range(len(num_list)):
             #     rangek = 2
             # else:
             #     rangek = 3
-            rangek = 11
-            for i in range(1, 11):
+            rangek = 2
+            for i in range(1, rangek):
 
                 iteration = i
                 grid_x = 10
