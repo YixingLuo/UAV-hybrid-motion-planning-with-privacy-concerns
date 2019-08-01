@@ -31,7 +31,7 @@ def map(map_array):
     mlab.zlabel('z')
     mlab.show()
 '''
-# occ_grid = np.load("occ_grid-50.npy")
+# occ_grid = np.load("occ_grid-10.npy")
 # obstaclex = []
 # obstacley = []
 # obstaclez = []

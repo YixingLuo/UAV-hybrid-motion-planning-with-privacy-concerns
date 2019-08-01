@@ -17,6 +17,7 @@ import os
 # 隐私部分的初始化
 def privacy_init(grid_x, grid_y, grid_z, occ_grid, radius):
     #print(radius[0])
+    # print(occ_grid)
     pri_grid = np.zeros((grid_x, grid_y, grid_z))
     for i in range(grid_x):
         for j in range(grid_y):

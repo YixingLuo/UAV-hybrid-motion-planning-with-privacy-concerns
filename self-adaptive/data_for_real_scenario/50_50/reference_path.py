@@ -69,6 +69,8 @@ def PathInitial(config, reinitial_flag, iteration, log, num):
     if reinitial_flag == 1:
         reference_path.append([0, 0, 0, 1])
         objective_list.append([1, 0, 0])
+        # objective_list.append([1, 37, 0])
+        # objective_list.append([1, 37, 49])
         objective_list.append([1, 0, 12])
         objective_list.append([1, 25, 12])
         objective_list.append([1, 25, 31])

@@ -28,7 +28,7 @@ for round in range(len(num_list)):
     # num = 10
     #
     # viewradius_list = [1, 1.5, 2, 2.5, 3]
-    viewradius_list = [4]
+    viewradius_list = [ 4]
     # viewradius_list.reverse()
     for vr in range (len(viewradius_list)):
 
@@ -54,7 +54,7 @@ for round in range(len(num_list)):
             #     rangek = 2
             # else:
             #     rangek = 3
-            rangek = 11
+            rangek = 2
             for i in range(1, rangek):
 
                 iteration = i

@@ -111,7 +111,7 @@ for i in range(50):
 np.savetxt("maplabel_height_update.txt",maplabel_height_update,fmt='%d',delimiter=',')
 print(num_obstacle,num_privacy)
 print(occ_grid_map)
-np.save("occ_grid-50.npy",occ_grid_map)
+np.save("occ_grid-10.npy",occ_grid_map)
 # for i in range(50):
 #     for j in range(50):
 #         if occ_grid_map[i][0][j] == 1 and maplabel_height[i][j] == 0:

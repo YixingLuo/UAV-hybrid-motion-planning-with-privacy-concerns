@@ -32,7 +32,7 @@ def map(map_array):
     mlab.zlabel('z')
     mlab.show()
 '''
-# occ_grid = np.load("occ_grid-50.npy")
+# occ_grid = np.load("occ_grid-10.npy")
 # obstaclex = []
 # obstacley = []
 # obstaclez = []
@@ -176,8 +176,8 @@ mlab.barchart(A3 )
 mlab.barchart(A4 )
 
 # mlab.plot3d(x, y, z, color=(0.23, 0.6, 1), colormap='Spectral')
-mlab.plot3d(x, y, z, color=(1, 0, 0),opacity=1, tube_radius=None, colormap='Spectral')
 mlab.plot3d(x1, y1, z1, color=(0, 0, 1), opacity=1, tube_radius=None, colormap='Spectral')
+mlab.plot3d(x, y, z, color=(0, 0, 0),opacity=1, tube_radius=None, colormap='Spectral')
 
 for i in range(np.shape(ccc)[0]):
     c1=plan_path_Hybrid[ccc[i][0]:(ccc[i][1]+1),0:3]
