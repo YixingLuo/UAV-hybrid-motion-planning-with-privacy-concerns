@@ -641,29 +641,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/self-adaptive/animation/10_10/data/map10UAV.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="282" selection-start-line="282" selection-end-line="282" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/self-adaptive/animation/10_10/PathPlanningOnline.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/self-adaptive/animation/10_10/MainFunc-viewradius2.py">
+        <entry file="file://$PROJECT_DIR$/Delay/10_10/MainFunc-viewradius2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+            <state relative-caret-position="540">
+              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -752,7 +734,6 @@
         <option value="$PROJECT_DIR$/self-adaptive/animation/10_10/data/video.py" />
         <option value="$PROJECT_DIR$/Delay/10_10/HybridPlanning_SA.py" />
         <option value="$PROJECT_DIR$/Delay/10_10/PathPlanningOnline.py" />
-        <option value="$PROJECT_DIR$/Delay/10_10/MainFunc-viewradius2.py" />
         <option value="$PROJECT_DIR$/Delay/10_10/HybridPlanning_SA_delay.py" />
         <option value="$PROJECT_DIR$/Delay/50_50/HybridPlanning_SA.py" />
         <option value="$PROJECT_DIR$/Delay/50_50/HybridPlanning_SA_delay.py" />
@@ -776,6 +757,7 @@
         <option value="$PROJECT_DIR$/self-adaptive/animation/10_10/PathPlanningOnline.py" />
         <option value="$PROJECT_DIR$/self-adaptive/animation/10_10/MainFunc-viewradius2.py" />
         <option value="$PROJECT_DIR$/self-adaptive/animation/10_10/data/map10UAV.py" />
+        <option value="$PROJECT_DIR$/Delay/10_10/MainFunc-viewradius2.py" />
       </list>
     </option>
   </component>
@@ -802,6 +784,19 @@
               <item name="UAV-hybrid-motion-planning-with-privacy-concerns" type="b2602c69:ProjectViewProjectNode" />
               <item name="UAV-hybrid-motion-planning-with-privacy-concerns" type="462c0819:PsiDirectoryNode" />
               <item name="Delay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UAV-hybrid-motion-planning-with-privacy-concerns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UAV-hybrid-motion-planning-with-privacy-concerns" type="462c0819:PsiDirectoryNode" />
+              <item name="Delay" type="462c0819:PsiDirectoryNode" />
+              <item name="10_10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UAV-hybrid-motion-planning-with-privacy-concerns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UAV-hybrid-motion-planning-with-privacy-concerns" type="462c0819:PsiDirectoryNode" />
+              <item name="Delay" type="462c0819:PsiDirectoryNode" />
+              <item name="10_10" type="462c0819:PsiDirectoryNode" />
+              <item name="log_2019_08_01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -845,7 +840,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MainFunc-viewradius2">
+  <component name="RunManager" selected="Python.MainFunc-viewradius2 (1)">
+    <configuration name="MainFunc-viewradius2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UAV-hybrid-motion-planning-with-privacy-concerns" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Delay/10_10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Delay/10_10/MainFunc-viewradius2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MainFunc-viewradius2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UAV-hybrid-motion-planning-with-privacy-concerns" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -934,35 +951,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="video" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="UAV-hybrid-motion-planning-with-privacy-concerns" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/self-adaptive/animation/50_50/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/self-adaptive/animation/50_50/data/video.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MainFunc-viewradius2 (1)" />
         <item itemvalue="Python.MainFunc-viewradius2" />
         <item itemvalue="Python.map10UAV" />
         <item itemvalue="Python.video (1)" />
         <item itemvalue="Python.map100UAV" />
-        <item itemvalue="Python.video" />
       </list>
     </recent_temporary>
   </component>
@@ -986,7 +981,7 @@
       <workItem from="1563087465595" duration="45835000" />
       <workItem from="1563232899085" duration="95756000" />
       <workItem from="1563764559160" duration="91183000" />
-      <workItem from="1564099036348" duration="84389000" />
+      <workItem from="1564099036348" duration="88674000" />
     </task>
     <task id="LOCAL-00001" summary="self-adaptive version finished">
       <created>1561883399270</created>
@@ -1142,11 +1137,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563864077013</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update for delay and occ_grid_knwon">
+      <created>1564618387612</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1564618387612</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update for delay and occ_grid_knwon">
+      <created>1564618546414</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1564618546414</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="475758000" />
+    <option name="totallyTimeSpent" value="480043000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1158,7 +1167,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29371002" />
@@ -1246,7 +1255,7 @@
     <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$readfile_1.coverage" NAME="readfile_1 Coverage Results" MODIFIED="1564200362166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Delay/100_100" />
     <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$map10UAV__1_.coverage" NAME="map10UAV (1) Coverage Results" MODIFIED="1564473309434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation/10_10_2/data" />
     <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$fill.coverage" NAME="fill Coverage Results" MODIFIED="1563766988482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3Dmap/3Dmodel/100" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_viewradius2__1_.coverage" NAME="MainFunc-viewradius2 (1) Coverage Results" MODIFIED="1564572060038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Delay/50_50" />
+    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_viewradius2__1_.coverage" NAME="MainFunc-viewradius2 (1) Coverage Results" MODIFIED="1564626336250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Delay/10_10" />
     <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_radius__1_.coverage" NAME="MainFunc-radius (1) Coverage Results" MODIFIED="1563172088048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/50_50" />
     <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$2.coverage" NAME="2 Coverage Results" MODIFIED="1563327088812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3Dmap/3Dmodel" />
     <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$HybridPlanning_SA.coverage" NAME="HybridPlanning_SA Coverage Results" MODIFIED="1563971250389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation/100_100" />
@@ -1361,15 +1370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Delay/10_10/MainFunc-time-sensitive2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/self-adaptive/animation/10_10_4/data/ground.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1408,16 +1408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Delay/10_10/MainFunc-viewradius2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1636,6 +1626,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/self-adaptive/animation/10_10/data/map10UAV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="276" column="38" selection-start-line="276" selection-start-column="38" selection-end-line="276" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/self-adaptive/animation/10_10/PathPlanningOnline.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1643,17 +1640,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/self-adaptive/animation/10_10/data/map10UAV.py">
+    <entry file="file://$PROJECT_DIR$/self-adaptive/animation/10_10/MainFunc-viewradius2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="282" selection-start-line="282" selection-end-line="282" />
+        <state relative-caret-position="216">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/self-adaptive/animation/10_10/MainFunc-viewradius2.py">
+    <entry file="file://$PROJECT_DIR$/Delay/10_10/MainFunc-time-sensitive2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        <state relative-caret-position="144">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Delay/10_10/MainFunc-viewradius2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

@@ -22,7 +22,7 @@ from log import Log
 from log import Log
 
 # num_of_occ_grid = 2
-num_list = [0, 1, 5,6,10,11,15,16]
+num_list = [15,16]
 for round in range(len(num_list)):
     # num = round + 1
     num = num_list[round]
