@@ -1,0 +1,35 @@
+pic5-1: pictures for self-adaptive motion planning in 5*10*10 (height*length*width) grid scale: from point (0,0,0) to (0,9,9)
+pic5-2: pictures for reference path in 5*10*10 grid scale
+pic5-3: pictures for self-adaptive motion planning in 5*20*20 grid scale: from point (0,0,9) to (0,18,9)
+pic5-4: pictures for reference path in 5*20*20 grid scale
+
+data_raw:
+occ_grid_1.npy: environment map for 5*10*10 grid scale
+reference_path1.npy: reference path for 5*10*10 grid scale
+occ_grid_2.npy: environment map for 5*20*20 grid scale
+reference_path2.npy: reference path for 5*20*20 grid scale
+
+data1: environment map and replanned path logs for 5*10*10 grid scale
+logs are save in log_2019_08_05_17_19
+
+data2: environment map and replanned path logs for 5*20*20 grid scale
+logs are save in log_2019_08_05_17_33
+
+
+Notes: if the hsv of the blue house is different due to the sunlight, you can take a photo and tune the value in demo6.py using the programme color_hsv.py,
+the programme color_marker.py is used for label the privacy region detected
+the initial is
+blueLower = np.array([80, 55, 160])
+blueUpper = np.array([120, 120, 255])
+
+The main function is Main_simulation.py, some parameters are defined in the Configure.py, the algorithm for self-adaptive motion planning is HybridPlanning_SA_real.py, using Astar_real.py
+for trajectory replanning.
+The folder to save pictures transferred online is in receive.py
+demo6.py: online privacy region detection and localization
+flight_control.py: control command fo drone
+mapTools.py: functions for environment modeling
+Point2.py: waypoints definition
+
+
+
+
