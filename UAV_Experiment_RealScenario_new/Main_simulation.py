@@ -30,7 +30,7 @@ colorflag = 1
 sizeflag = 2
 
 ## time interval to send the flight control command
-continue_time = 0.5
+continue_time = 2
 
 ## experiment for group 1: 5*10*10 grid scale
 # occ_grid = np.load('data_raw/occ_grid_1.npy')

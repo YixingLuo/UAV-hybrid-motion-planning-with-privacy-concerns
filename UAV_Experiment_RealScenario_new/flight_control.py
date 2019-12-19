@@ -71,17 +71,17 @@ def flight_control (previous, next, trajectory, socket, continue_time):
 
                 time.sleep(continue_time)
 
-                # message = str(str(0) + ',' + str(0) + ',' + str(0) + ',' + str(h) + ',' + str(camera))
+                message = str(str(0) + ',' + str(0) + ',' + str(0) + ',' + str(h) + ',' + str(camera))
                 # print(message)
-                # s.sendall(message.encode('utf-8'))
-                # print(message)
-                # print("停止")
+                s.sendall(message.encode('utf-8'))
+                print(message)
+                print("停止")
 
                 # message = str(str(0) + ',' + str(0) + ',' + str(0) + ',' + str(h) + ',' + str(camera))
                 # # print(message)
                 # s.sendall(message.encode('utf-8'))
 
-                # time.sleep(5)
+                time.sleep(5)
 
             else:
                 message = str(str(0) + ',' + str(-0.5) + ',' + str(0) + ',' + str(h) + ',' + str(camera))
