@@ -304,13 +304,13 @@ if __name__ == '__main__' :
         mlab.clf(figure=None)
 
         # 将所有建筑物可视化过程
-        A = np.loadtxt("../data/occ_grid_height" + str(num) + ".txt", delimiter=' ')
-        # A = np.loadtxt(os.getcwd() + "/data/occ_grid_height" + str(0) + ".txt", delimiter=' ')
+        # A = np.loadtxt("../data/occ_grid_height" + str(num) + ".txt", delimiter=' ')
+        A = np.loadtxt("../data/occ_grid_height" + str(0) + ".txt", delimiter=' ')
         # print("打印带高度信息的地图\n")
         print("height",A)
 
-        Label = np.loadtxt("../data/ground" + str(num) + ".txt", delimiter=' ')
-        # Label = np.loadtxt(os.getcwd() + "/data/ground" + str(0) + ".txt", delimiter=' ')
+        # Label = np.loadtxt("../data/ground" + str(num) + ".txt", delimiter=' ')
+        Label = np.loadtxt("../data/ground" + str(0) + ".txt", delimiter=' ')
         print("label", Label)
         A1 = np.zeros((A.shape[0], A.shape[1]), dtype=int)
         # A2 = copy.deepcopy(A1)
@@ -364,8 +364,8 @@ if __name__ == '__main__' :
         mlab.points3d(0, 7, 0, mode='cube', color=(1, 1, 0), scale_mode='none', scale_factor='0.5')
         mlab.points3d(14, 7, 0, mode='cube', color=(1, 1, 0), scale_mode='none', scale_factor='0.5')
 
-        plan_path_Hybrid1 = "../data/plan_path_Hybrid_temp" + str(num) + ".npy"
-        # plan_path_Hybrid1 = os.getcwd() + "/reference_path3" + ".npy"
+        # plan_path_Hybrid1 = "../data/plan_path_Hybrid_temp" + str(num) + ".npy"
+        plan_path_Hybrid1 = os.getcwd() + "/reference_path3" + ".npy"
         # plan_path_Hybrid1 = "plan_path_PP_temp" + str(num) + ".npy"
         plan_path_Hybrid = np.load(file=plan_path_Hybrid1)
         # print("综合规划路径数组类型输出：",plan_path_Hybrid.shape)
@@ -389,8 +389,8 @@ if __name__ == '__main__' :
         print("x,y,z", x,y,z)
 
         # camera状态改变可视化过程
-        camera_path =  "../data/plan_path_Hybrid_temp" + str(num) + ".npy"
-        # camera_path = os.getcwd() + "/reference_path3" + ".npy"
+        # camera_path =  "../data/plan_path_Hybrid_temp" + str(num) + ".npy"
+        camera_path = os.getcwd() + "/reference_path3" + ".npy"
         # camera_path = "plan_path_PP_temp" + str(num) + ".npy"
         camera_path = np.load(file=camera_path)
 

@@ -4,16 +4,29 @@ pic5-3: pictures for self-adaptive motion planning in 5*20*20 grid scale: from p
 pic5-4: pictures for reference path in 5*20*20 grid scale
 
 data_raw:
+for previous experiment:
 occ_grid_1.npy: environment map for 5*10*10 grid scale
 reference_path1.npy: reference path for 5*10*10 grid scale
 occ_grid_2.npy: environment map for 5*20*20 grid scale
 reference_path2.npy: reference path for 5*20*20 grid scale
+
+for new experiment:
+occ_grid_3.npy:  environment map for 5*15*15 grid scale
+reference_path3.npy: reference path 1 for 5*15*15 grid scale
+reference_path3_2.npy: reference path 2 for 5*15*15 grid scale
+
 
 data1: environment map and replanned path logs for 5*10*10 grid scale
 logs are save in log_2019_08_05_17_19
 
 data2: environment map and replanned path logs for 5*20*20 grid scale
 logs are save in log_2019_08_05_17_33
+
+data: environment map and replanned path logs for 5*15*15 grid scale
+logs are save in log_2019_12_19_10_49
+
+animation:
+animation for the previous experiment and the new one
 
 
 Notes: if the hsv of the blue house is different due to the sunlight, you can take a photo and tune the value in demo6.py using the programme color_hsv.py,

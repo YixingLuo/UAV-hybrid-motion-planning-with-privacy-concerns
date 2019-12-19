@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51a63c1d-2885-4f15-96a3-5820c05318ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/100_100/data/occ_grid-50.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/100_100/data/toMatlab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/UAV-hybrid-motion-planning-with-privacy-concerns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UAV-hybrid-motion-planning-with-privacy-concerns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/50_50_2/data/occ_grid-50.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UAV_Experiment_RealScenario_new/data_raw/map15UAV.py" beforeDir="false" afterPath="$PROJECT_DIR$/UAV_Experiment_RealScenario_new/data_raw/map15UAV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UAV_Experiment_RealScenario_new/readme" beforeDir="false" afterPath="$PROJECT_DIR$/UAV_Experiment_RealScenario_new/readme" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +37,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1S0QzdI8TCTdUFI19vnTZuJotg0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -78,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.toMatlab">
+  <component name="RunManager" selected="Python.map15UAV">
     <configuration name="MainFunc-viewradius2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UAV-hybrid-motion-planning-with-privacy-concerns" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,6 +143,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="map15UAV" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UAV-hybrid-motion-planning-with-privacy-concerns" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UAV_Experiment_RealScenario_new/data_raw" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UAV_Experiment_RealScenario_new/data_raw/map15UAV.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="toMatlab" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UAV-hybrid-motion-planning-with-privacy-concerns" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,35 +187,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="video (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="UAV-hybrid-motion-planning-with-privacy-concerns" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/self-adaptive/animation/100_100/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/self-adaptive/animation/100_100/data/video.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.map15UAV" />
         <item itemvalue="Python.toMatlab" />
         <item itemvalue="Python.MainFunc-viewradius2 (1)" />
         <item itemvalue="Python.MainFunc-viewradius2" />
         <item itemvalue="Python.map10UAV" />
-        <item itemvalue="Python.video (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -226,6 +224,7 @@
       <workItem from="1572871439601" duration="1239000" />
       <workItem from="1573627211124" duration="1632000" />
       <workItem from="1575429013223" duration="33000" />
+      <workItem from="1576724089342" duration="580000" />
     </task>
     <task id="LOCAL-00001" summary="self-adaptive version finished">
       <created>1561883399270</created>
@@ -424,6 +423,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="self-adaptive version finished" />
     <MESSAGE value="update privacy labeling" />
     <MESSAGE value="update for environment setting" />
@@ -477,6 +477,7 @@
     <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$excel.coverage" NAME="excel Coverage Results" MODIFIED="1563766929168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3Dmap/3Dmodel/100" />
     <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_radius__1_.coverage" NAME="MainFunc-radius (1) Coverage Results" MODIFIED="1563172088048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/50_50" />
     <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$3__2_.coverage" NAME="3 (2) Coverage Results" MODIFIED="1563506208327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/10_10/data" />
+    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$map15UAV.coverage" NAME="map15UAV Coverage Results" MODIFIED="1576724828619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UAV_Experiment_RealScenario_new/data_raw" />
     <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_exploration.coverage" NAME="MainFunc-exploration Coverage Results" MODIFIED="1563107319676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/50_50" />
     <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_viewradius.coverage" NAME="MainFunc-viewradius Coverage Results" MODIFIED="1562061539155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/For cloud server2" />
     <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$mapplot.coverage" NAME="mapplot Coverage Results" MODIFIED="1563247343624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/50_50/data" />
