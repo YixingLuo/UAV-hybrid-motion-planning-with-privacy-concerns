@@ -47,7 +47,7 @@ continue_time = 2
 occ_grid = np.load('data_raw/occ_grid_3.npy')
 reference_path = np.load('data_raw/reference_path3.npy')
 # reference_path = np.load('data_raw/reference_path3_2.npy')
-privacy_radius = [1, 1.5, 5]
+privacy_radius = [1, 1.5, 4]
 
 
 print(occ_grid.shape, reference_path, len(reference_path))
