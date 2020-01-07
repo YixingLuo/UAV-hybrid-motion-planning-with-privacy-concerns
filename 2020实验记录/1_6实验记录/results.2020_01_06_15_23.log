@@ -1,0 +1,6 @@
+[2020-01-06 15:23:37,581] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [0, 0, 7, 1]
+[2020-01-06 15:23:37,582] demo6.py->hasprivacythreat_real line:219 [INFO]image index /home/kids/1/187.jpg
+[2020-01-06 15:23:57,058] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [1, 0, 7, 1]
+[2020-01-06 15:23:57,060] demo6.py->hasprivacythreat_real line:219 [INFO]image index /home/kids/1/187.jpg
+[2020-01-06 15:24:16,822] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [2, 0, 7, 1]
+[2020-01-06 15:24:16,824] demo6.py->hasprivacythreat_real line:219 [INFO]image index /home/kids/1/187.jpg
