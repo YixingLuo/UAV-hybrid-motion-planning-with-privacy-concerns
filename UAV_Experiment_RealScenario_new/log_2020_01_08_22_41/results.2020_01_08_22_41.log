@@ -1,0 +1,32 @@
+[2020-01-08 22:41:06,840] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [0, 0, 7, 1]
+[2020-01-08 22:41:06,841] demo6.py->hasprivacythreat_real line:219 [INFO]image index C:\Users\luoyixing\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\UAV_Experiment_RealScenario_new/pic0108/17.jpg
+[2020-01-08 22:41:14,938] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [1, 0, 7, 1]
+[2020-01-08 22:41:14,938] demo6.py->hasprivacythreat_real line:219 [INFO]image index C:\Users\luoyixing\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\UAV_Experiment_RealScenario_new/pic0108/23.jpg
+[2020-01-08 22:41:23,035] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [2, 0, 7, 1]
+[2020-01-08 22:41:23,035] demo6.py->hasprivacythreat_real line:219 [INFO]image index C:\Users\luoyixing\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\UAV_Experiment_RealScenario_new/pic0108/29.jpg
+[2020-01-08 22:41:31,130] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [3, 0, 7, 1]
+[2020-01-08 22:41:31,130] demo6.py->hasprivacythreat_real line:219 [INFO]image index C:\Users\luoyixing\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\UAV_Experiment_RealScenario_new/pic0108/36.jpg
+[2020-01-08 22:41:38,223] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [3, 1, 7, 1]
+[2020-01-08 22:41:38,223] demo6.py->hasprivacythreat_real line:219 [INFO]image index C:\Users\luoyixing\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\UAV_Experiment_RealScenario_new/pic0108/43.jpg
+[2020-01-08 22:41:53,321] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [3, 2, 7, 1]
+[2020-01-08 22:41:53,321] demo6.py->hasprivacythreat_real line:219 [INFO]image index C:\Users\luoyixing\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\UAV_Experiment_RealScenario_new/pic0108/56.jpg
+[2020-01-08 22:42:00,407] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [3, 3, 7, 1]
+[2020-01-08 22:42:00,407] demo6.py->hasprivacythreat_real line:219 [INFO]image index C:\Users\luoyixing\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\UAV_Experiment_RealScenario_new/pic0108/62.jpg
+[2020-01-08 22:42:07,498] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [3, 4, 7, 1]
+[2020-01-08 22:42:07,498] demo6.py->hasprivacythreat_real line:219 [INFO]image index C:\Users\luoyixing\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\UAV_Experiment_RealScenario_new/pic0108/68.jpg
+[2020-01-08 22:42:14,586] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [3, 5, 7, 1]
+[2020-01-08 22:42:14,586] demo6.py->hasprivacythreat_real line:219 [INFO]image index C:\Users\luoyixing\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\UAV_Experiment_RealScenario_new/pic0108/73.jpg
+[2020-01-08 22:42:14,740] demo6.py->hasprivacythreat_real line:292 [INFO]threat position: [7, 9]
+[2020-01-08 22:42:14,740] demo6.py->hasprivacythreat_real line:292 [INFO]threat position: [7, 8]
+[2020-01-08 22:42:14,741] demo6.py->hasprivacythreat_real line:292 [INFO]threat position: [6, 5]
+[2020-01-08 22:42:14,751] demo6.py->hasprivacythreat_real line:316 [INFO]center threat position: [7, 7]
+[2020-01-08 22:42:14,769] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:185 [INFO]producing local planning
+[2020-01-08 22:42:14,770] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:196 [INFO]affect_path:[from: 8 (3, 5, 7, 1) to: 13 (3, 10, 7, 1)]
+[2020-01-08 22:42:19,552] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:248 [INFO]Online_Hybrid_Planning: No solution for local planning: from [3, 5, 7] to [3, 10, 7]. No solution flag is 1, PR for PP is 0.054947. length of PP is 7, T plan optimal is 5
+[2020-01-08 22:42:46,659] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [3, 6, 7, 2]
+[2020-01-08 22:42:53,662] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [3, 7, 7, 2]
+[2020-01-08 22:43:00,671] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [3, 8, 7, 2]
+[2020-01-08 22:43:07,674] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [3, 9, 7, 2]
+[2020-01-08 22:43:14,682] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [3, 10, 7, 1]
+[2020-01-08 22:43:14,682] demo6.py->hasprivacythreat_real line:219 [INFO]image index C:\Users\luoyixing\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\UAV_Experiment_RealScenario_new/pic0108/368.jpg
+[2020-01-08 22:43:21,766] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [3, 11, 7, 1]

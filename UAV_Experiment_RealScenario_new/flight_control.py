@@ -74,7 +74,7 @@ def flight_control (previous, next, trajectory, socket, continue_time):
                 message = str(str(0) + ',' + str(0) + ',' + str(0) + ',' + str(h) + ',' + str(camera))
                 # print(message)
                 s.sendall(message.encode('utf-8'))
-                print(message)
+                # print(message)
                 print("停止")
 
                 # message = str(str(0) + ',' + str(0) + ',' + str(0) + ',' + str(h) + ',' + str(camera))

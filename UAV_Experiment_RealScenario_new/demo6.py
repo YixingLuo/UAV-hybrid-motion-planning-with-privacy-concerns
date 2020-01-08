@@ -190,7 +190,7 @@ def hasprivacythreat_real (position, occ_grid_known, config, index, colorflag, s
     :return: flag: if privacy region is detected, return the updated occ_grid_known
     """
     ## try this for offline testing with settled picture index
-    # picture_list_1 = [5, 10, 16, 22, 30, 38, 46, 56, 66, 76, 86, 96, 106, 116, 126, 136, 146, 152, 159, 166, 173, 180, 187, 194, 199, 205, 216]
+    picture_list_1 = [17,23,29,36,43,56,62,68,73,343,349,354,361,368]
     # picture_list_2 = [3, 8, 13, 18, 25, 31, 37, 44, 55, 60, 65, 70, 75, 80, 85, 99, 102, 107, 112, 118, 124, 134, 139, 142, 143, 144, 150]
 
     ## when camera is on: position.ca==1, launch privacy region detection
@@ -205,12 +205,12 @@ def hasprivacythreat_real (position, occ_grid_known, config, index, colorflag, s
         # log.info("current position [%d, %d, %d, %d]" % (position.x, position.y, position.z, position.ca))
 
         ## try this for online
-        num = file_name('D:/1')
-        img1 = 'D:/1/' + str(num) + '.jpg'
+        # num = file_name('D:/1')
+        # img1 = 'D:/1/' + str(num) + '.jpg'
 
         ## try this for offline testing with settled picture index
-        # picture_index = picture_list_1[index]
-        # img1 = os.getcwd() + '/pic5-1/'+str(picture_index)+".jpg"
+        picture_index = picture_list_1[index]
+        img1 = os.getcwd() + '/pic0108/'+str(picture_index)+".jpg"
 
         # picture_index = picture_list_2[index]
         # img1 = os.getcwd() + '/pic5-3/' + str(picture_index) + ".jpg"

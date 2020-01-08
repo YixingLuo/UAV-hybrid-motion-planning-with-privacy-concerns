@@ -1,0 +1,12 @@
+[2020-01-08 22:39:42,142] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [0, 0, 7, 1]
+[2020-01-08 22:39:42,143] demo6.py->hasprivacythreat_real line:219 [INFO]image index C:\Users\luoyixing\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\UAV_Experiment_RealScenario_new/pic0108/17.jpg
+[2020-01-08 22:39:50,404] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [1, 0, 7, 1]
+[2020-01-08 22:39:50,404] demo6.py->hasprivacythreat_real line:219 [INFO]image index C:\Users\luoyixing\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\UAV_Experiment_RealScenario_new/pic0108/23.jpg
+[2020-01-08 22:39:58,499] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [2, 0, 7, 1]
+[2020-01-08 22:39:58,499] demo6.py->hasprivacythreat_real line:219 [INFO]image index C:\Users\luoyixing\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\UAV_Experiment_RealScenario_new/pic0108/29.jpg
+[2020-01-08 22:40:06,599] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [3, 0, 7, 1]
+[2020-01-08 22:40:06,599] demo6.py->hasprivacythreat_real line:219 [INFO]image index C:\Users\luoyixing\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\UAV_Experiment_RealScenario_new/pic0108/36.jpg
+[2020-01-08 22:40:13,700] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [3, 1, 7, 1]
+[2020-01-08 22:40:13,700] demo6.py->hasprivacythreat_real line:219 [INFO]image index C:\Users\luoyixing\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\UAV_Experiment_RealScenario_new/pic0108/43.jpg
+[2020-01-08 22:40:28,803] HybridPlanning_SA_real.py->Astar_Hybrid_Planning_online line:104 [INFO]current position of UAV: [3, 2, 7, 1]
+[2020-01-08 22:40:28,803] demo6.py->hasprivacythreat_real line:219 [INFO]image index C:\Users\luoyixing\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\UAV_Experiment_RealScenario_new/pic0108/56.jpg
