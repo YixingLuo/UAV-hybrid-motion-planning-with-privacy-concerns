@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51a63c1d-2885-4f15-96a3-5820c05318ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UAV_Experiment_RealScenario_new/continuous/local_relaxation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UAV_Experiment_RealScenario_new/continuous/optimal_control.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UAV_Experiment_RealScenario_new/continuous/scp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment_code/0108/Main_simulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment_code/0108/Main_simulation_refpath3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment_code/0108/Main_simulation_refpath3_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment_code/0108/flight_control.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,12 +42,18 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/UAV_Experiment_RealScenario_new/continuous" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/experiment_code/0108" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -65,18 +71,6 @@
       <recent name="C:\Users\hp\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\Delay\100_100" />
       <recent name="C:\Users\hp\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\Delay\100_100\data" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.local_relaxation">
     <configuration name="local_relaxation" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -199,6 +193,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -227,7 +233,7 @@
       <workItem from="1573627211124" duration="1632000" />
       <workItem from="1575429013223" duration="33000" />
       <workItem from="1576724089342" duration="1484000" />
-      <workItem from="1576757532097" duration="11566000" />
+      <workItem from="1576757532097" duration="11567000" />
     </task>
     <task id="LOCAL-00001" summary="self-adaptive version finished">
       <created>1561883399270</created>
@@ -435,6 +441,16 @@
     <MESSAGE value="update for delay and occ_grid_knwon" />
     <option name="LAST_COMMIT_MESSAGE" value="update for delay and occ_grid_knwon" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="163" key="SettingsEditor" timestamp="1578450960840">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578450960840" />
+    <state x="661" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1578450762588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="345" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578450762588" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -445,70 +461,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_time_sensitive2.coverage" NAME="MainFunc-time-sensitive2 Coverage Results" MODIFIED="1562676608557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/For cloud server2" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_viewradius2__1_.coverage" NAME="MainFunc-viewradius2 (1) Coverage Results" MODIFIED="1564626336250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Delay/10_10" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$csv_parser.coverage" NAME="csv_parser Coverage Results" MODIFIED="1561874688382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/log" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$video__2_.coverage" NAME="video (2) Coverage Results" MODIFIED="1564553706083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation/10_10/data" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$plot__1_.coverage" NAME="plot (1) Coverage Results" MODIFIED="1562485815886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/data_log/exp0" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$Astar_2.coverage" NAME="Astar-2 Coverage Results" MODIFIED="1563095831559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/50_50" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$select.coverage" NAME="select Coverage Results" MODIFIED="1563772301819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/100_100/data" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$readfile_1__1_.coverage" NAME="readfile_1 (1) Coverage Results" MODIFIED="1563944168653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation/10_10" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_radius.coverage" NAME="MainFunc-radius Coverage Results" MODIFIED="1563158520134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/50_50_2" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$reference_path.coverage" NAME="reference_path Coverage Results" MODIFIED="1563177734543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/50_50" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$readfile.coverage" NAME="readfile Coverage Results" MODIFIED="1564313496862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Delay/50_50" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$readfile__1_.coverage" NAME="readfile (1) Coverage Results" MODIFIED="1564313387986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Delay/10_10" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$processimg.coverage" NAME="processimg Coverage Results" MODIFIED="1563766801835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3Dmap/3Dmodel/100" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$local_relaxation.coverage" NAME="local_relaxation Coverage Results" MODIFIED="1576833869517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UAV_Experiment_RealScenario_new/continuous" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_viewradius2__2_.coverage" NAME="MainFunc-viewradius2 (2) Coverage Results" MODIFIED="1564580365487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Delay/100_100" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_viewradius__1_.coverage" NAME="MainFunc-viewradius (1) Coverage Results" MODIFIED="1562137209070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$video.coverage" NAME="video Coverage Results" MODIFIED="1564578919831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation/50_50/data" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$splitimg.coverage" NAME="splitimg Coverage Results" MODIFIED="1563766227478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/100_100/model" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$Main_simulation.coverage" NAME="Main_simulation Coverage Results" MODIFIED="1564129903911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation/10_10_3" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$scp.coverage" NAME="scp Coverage Results" MODIFIED="1576813444261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../WeChat Files/qing_LM/FileStorage/File/2019-12" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$video__1_.coverage" NAME="video (1) Coverage Results" MODIFIED="1564579088461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation/100_100/data" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$plot.coverage" NAME="plot Coverage Results" MODIFIED="1563934455804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$HybridPlanning_SA.coverage" NAME="HybridPlanning_SA Coverage Results" MODIFIED="1563971250389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation/100_100" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$plot__2_.coverage" NAME="plot (2) Coverage Results" MODIFIED="1562486496266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/data_log/exp0.1" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_viewradius2.coverage" NAME="MainFunc-viewradius2 Coverage Results" MODIFIED="1564580705445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation/10_10" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$readimg.coverage" NAME="readimg Coverage Results" MODIFIED="1564106230813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3Dmap/3Dmodel/10" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$2.coverage" NAME="2 Coverage Results" MODIFIED="1563327088812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3Dmap/3Dmodel" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$readfile_1__2_.coverage" NAME="readfile_1 (2) Coverage Results" MODIFIED="1563432410620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/temp" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$fill.coverage" NAME="fill Coverage Results" MODIFIED="1563766988482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3Dmap/3Dmodel/100" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_exploration__1_.coverage" NAME="MainFunc-exploration (1) Coverage Results" MODIFIED="1562420927172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$readfile_1.coverage" NAME="readfile_1 Coverage Results" MODIFIED="1564200362166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Delay/100_100" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$test.coverage" NAME="test Coverage Results" MODIFIED="1564124867833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario_delay/10_10" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$excel.coverage" NAME="excel Coverage Results" MODIFIED="1563766929168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3Dmap/3Dmodel/100" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_radius__1_.coverage" NAME="MainFunc-radius (1) Coverage Results" MODIFIED="1563172088048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/50_50" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$3__2_.coverage" NAME="3 (2) Coverage Results" MODIFIED="1563506208327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/10_10/data" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$map15UAV.coverage" NAME="map15UAV Coverage Results" MODIFIED="1576724828619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UAV_Experiment_RealScenario_new/data_raw" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_exploration.coverage" NAME="MainFunc-exploration Coverage Results" MODIFIED="1563107319676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/50_50" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_viewradius.coverage" NAME="MainFunc-viewradius Coverage Results" MODIFIED="1562061539155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/For cloud server2" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$mapplot.coverage" NAME="mapplot Coverage Results" MODIFIED="1563247343624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/50_50/data" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$map100UAV.coverage" NAME="map100UAV Coverage Results" MODIFIED="1564579045939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation/100_100/data" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$map50UAV.coverage" NAME="map50UAV Coverage Results" MODIFIED="1564578830454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation/50_50/data" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$map10F.coverage" NAME="map10F Coverage Results" MODIFIED="1563930979152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/10_10/data" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$3.coverage" NAME="3 Coverage Results" MODIFIED="1563969532678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/50_50/data" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_viewradius2__3_.coverage" NAME="MainFunc-viewradius2 (3) Coverage Results" MODIFIED="1564572975911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation/50_50" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$map10UAV__2_.coverage" NAME="map10UAV (2) Coverage Results" MODIFIED="1564537179103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation/10_10/data" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$ly.coverage" NAME="ly Coverage Results" MODIFIED="1563766614558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3Dmap/3Dmodel/100" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$log_to_csv.coverage" NAME="log_to_csv Coverage Results" MODIFIED="1561874674591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/log" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$mapplot__1_.coverage" NAME="mapplot (1) Coverage Results" MODIFIED="1563327108545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3Dmap/3Dmodel" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$readfile_1__3_.coverage" NAME="readfile_1 (3) Coverage Results" MODIFIED="1563450741888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/50_50_2" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$scp__1_.coverage" NAME="scp (1) Coverage Results" MODIFIED="1576813589108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UAV_Experiment_RealScenario_new/continuous" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_exploration__2_.coverage" NAME="MainFunc-exploration (2) Coverage Results" MODIFIED="1562581883928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/For cloud server2" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$optimal_control.coverage" NAME="optimal_control Coverage Results" MODIFIED="1576833779984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UAV_Experiment_RealScenario_new/continuous" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$mapshow.coverage" NAME="mapshow Coverage Results" MODIFIED="1563927659255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/100_100/data" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$map10UAV.coverage" NAME="map10UAV Coverage Results" MODIFIED="1564580299698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation/10_10/data" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$plot2.coverage" NAME="plot2 Coverage Results" MODIFIED="1563958821569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation/10_10/data" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$3__1_.coverage" NAME="3 (1) Coverage Results" MODIFIED="1563931417313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/10_10/data" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$MainFunc_viewradius2__4_.coverage" NAME="MainFunc-viewradius2 (4) Coverage Results" MODIFIED="1564576496870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation/100_100" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$map10UAV__1_.coverage" NAME="map10UAV (1) Coverage Results" MODIFIED="1564473309434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/animation/10_10_2/data" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$dfs.coverage" NAME="dfs Coverage Results" MODIFIED="1563766830708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3Dmap/3Dmodel/100" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$statistic_average.coverage" NAME="statistic_average Coverage Results" MODIFIED="1561874700108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/log" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$toMatlab.coverage" NAME="toMatlab Coverage Results" MODIFIED="1573627644438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/self-adaptive/data_for_real_scenario/100_100/data" />
-    <SUITE FILE_PATH="coverage/UAV_hybrid_motion_planning_with_privacy_concerns$privacy_labeling.coverage" NAME="privacy_labeling Coverage Results" MODIFIED="1563766984206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3Dmap/3Dmodel/100" />
   </component>
   <component name="masterDetails">
     <states>
