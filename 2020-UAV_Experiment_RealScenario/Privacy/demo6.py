@@ -206,12 +206,12 @@ def hasprivacythreat_real (position, occ_grid_known, config, index, colorflag, s
         log.info("current position [%d, %d, %d, %d]" % (position.x, position.y, position.z, position.ca))
 
         ## try this for online
-        num = file_name('D:/1')
-        img1 = 'D:/1/' + str(num) + '.jpg'
+        # num = file_name('D:/1')
+        # img1 = 'D:/1/' + str(num) + '.jpg'
 
         ## try this for offline testing with settled picture index
-        # picture_index = picture_list_1[index]
-        # img1 = os.getcwd() + '/pic5-4/'+str(picture_index)+".jpg"
+        picture_index = picture_list_1[index]
+        img1 = os.getcwd() + '/pic5-4/'+str(picture_index)+".jpg"
 
         print("\033[92m image index: %s \033[0m" % (img1))
         log.info("image index %s" % (img1))

@@ -171,9 +171,14 @@ class AStar:
         # else:
         #     delta_g = time_punishment * privacy_threat
 
-        # delta_g = privacy_threat +  (minF.step + 1 - self.Toptimal) / (self.Tbudget - self.Toptimal)
+        if minF.step + 1 <= self.Toptimal:
+            delta_g = privacy_threat
+        else:
+            delta_g = privacy_threat + (minF.step + 1 - self.Toptimal) / (self.Tbudget - self.Toptimal)
 
-        delta_g = privacy_threat + (minF.step + 1 - self.Toptimal)
+        # delta_g = privacy_threat + (minF.step + 1 - self.Toptimal) / (self.Tbudget - self.Toptimal)
+
+        # delta_g = privacy_threat + (minF.step + 1 - self.Toptimal)
 
         # 用一个列表来收集相同的点
         same_point_list = self.the_same_points_in_open_list(currentPoint)

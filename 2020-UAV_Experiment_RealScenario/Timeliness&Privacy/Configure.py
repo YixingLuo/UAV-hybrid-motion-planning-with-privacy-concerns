@@ -21,7 +21,7 @@ class configure:
         # self.T_optimal = 24
 
         ## for the new experiment
-        self.T_budget = 26
+        self.T_budget = 30
         self.T_optimal = 26
 
         self.delay = delay

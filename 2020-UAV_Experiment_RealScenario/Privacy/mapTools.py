@@ -54,7 +54,11 @@ def privacy_init(grid_x, grid_y, grid_z, occ_grid, radius):
                                         h = 3
                                         # h = 8
 
-                                    pri_grid[m][n][l] += h * math.exp((-1 / 2) * np.power(dis, 2))
+                                    # pri_grid[m][n][l] += h * math.exp((-1 / 2) * np.power(dis, 2))
+                                    if dis >= 4:
+                                        pri_grid[m][n][l] += 0
+                                    else:
+                                        pri_grid[m][n][l] += 1 - (dis-0.2-0.8)/3
                                     # pri_grid[m][n][l] += dis-0.5-0.2
 
     sum_privacy = 0
