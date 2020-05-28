@@ -20,7 +20,7 @@ np.set_printoptions(threshold=np.inf)
 
 delay = 0
 
-HOST = '192.168.1.105'
+HOST = '192.168.4.2'
 PORT = 7896
 s = socket(AF_INET, SOCK_DGRAM)
 s.connect((HOST, PORT))

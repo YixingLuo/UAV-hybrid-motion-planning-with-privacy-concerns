@@ -17,7 +17,7 @@ import numpy as np
 import random
 
 #HOST = '192.168.31.105'
-HOST = '192.168.0.100'
+HOST = '192.168.4.3'
 PORT = 7896
 s = socket(AF_INET, SOCK_DGRAM)
 s.connect((HOST, PORT))

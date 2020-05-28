@@ -7,7 +7,7 @@ import os
 
 
 #在d盘创建一个名字为1的文件夹
-CUR_PATH = r'D:/1'
+CUR_PATH = r'/home/kids/1'
 
 def del_file(path):
     ls = os.listdir(path)
@@ -23,10 +23,10 @@ del_file(CUR_PATH)
 authorizer = DummyAuthorizer()
 
 #添加用户权限和路径，括号内的参数是(用户名， 密码， 用户目录， 权限)
-authorizer.add_user('user', '12345', 'D:/1', perm='elradfmw')
+authorizer.add_user('user', '12345', '/home/kids/1', perm='elradfmw')
 
 #添加匿名用户 只需要路径
-authorizer.add_anonymous('D:/1')
+authorizer.add_anonymous('/home/kids/1')
 
 #初始化ftp句柄
 handler = FTPHandler
@@ -36,7 +36,7 @@ handler.authorizer = authorizer
 handler.passive_ports = range(2000, 2333)
 
 #写上本电脑的ip
-server = FTPServer(('192.168.43.58', 8090), handler)
+server = FTPServer(('192.168.4.3', 8090), handler)
 
 #开始服务
 server.serve_forever()

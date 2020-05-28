@@ -20,112 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a63c1d-2885-4f15-96a3-5820c05318ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/log_2020_05_27_10_59/results.2020_05_27_10_59.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/log_2020_05_27_13_34/results.2020_05_27_13_34.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/log_2020_05_27_13_36/results.2020_05_27_13_36.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/log_2020_05_27_13_41/results.2020_05_27_13_41.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/log_2020_05_27_13_53/results.2020_05_27_13_53.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/log_2020_05_27_13_47/results.2020_05_27_13_47.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/log_2020_05_28_14_15/results.2020_05_28_14_15.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/Astar_real.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/Astar_real.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/Configure.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/Configure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/Main_simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/Main_simulation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/demo6.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/demo6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/mapTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/mapTools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/Astar_real.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/Astar_real.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/Configure.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/Configure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground13.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground14.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground16.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground17.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground18.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground19.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground20.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground22.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground23.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground24.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground25.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/ground26.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height13.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height14.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height16.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height17.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height18.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height19.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height20.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height22.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height23.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height24.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height25.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_height26.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp13.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp13.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp14.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp14.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp15.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp15.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp16.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp16.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp17.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp17.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp18.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp18.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp19.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp19.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp20.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp20.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp21.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp21.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp22.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp22.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp23.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp23.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp24.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp24.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp25.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp25.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp26.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/occ_grid_known_Hybrid_temp26.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp10.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp10.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp11.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp11.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp12.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp12.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp13.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp13.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp14.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp14.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp15.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp15.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp16.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp16.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp17.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp17.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp18.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp18.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp19.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp19.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp20.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp20.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp21.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp21.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp22.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp22.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp23.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp23.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp24.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp24.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp25.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp25.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp26.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp26.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp7.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp7.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp8.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp8.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp9.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/data/plan_path_Hybrid_temp9.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/demo6.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/demo6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/mapTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/mapTools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/Astar_real.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/Astar_real.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/Configure.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/Configure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp0.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp0.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp1.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp1.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp10.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp10.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp11.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp11.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp12.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp12.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp13.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp13.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp14.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp14.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp15.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp15.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp16.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp16.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp17.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp17.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp18.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp18.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp19.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp19.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp2.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp2.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp20.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp20.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp21.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp21.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp22.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp22.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp23.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp23.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp24.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp24.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp3.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp3.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp4.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp4.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp5.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp5.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp6.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp6.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp7.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp7.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp8.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp8.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp9.npy" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/data/occ_grid_known_Hybrid_temp9.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/demo6.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/demo6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/mapTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/mapTools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/flight_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/flight_control.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/receive.py" beforeDir="false" afterPath="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/receive.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +72,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -184,14 +84,14 @@
       <recent name="C:\Users\hp\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\self-adaptive\animation\10_10_4\data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\2020-UAV_Experiment_RealScenario\Privacy" />
       <recent name="C:\Users\Lenovo\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\2020-UAV_Experiment_RealScenario\Timeliness&amp;Privacy" />
       <recent name="C:\Users\Lenovo\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\2020-UAV_Experiment_RealScenario\Timeliness" />
       <recent name="C:\Users\Lenovo\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\2020-UAV_Experiment_RealScenario\Privacy\animation" />
-      <recent name="C:\Users\Lenovo\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\2020-UAV_Experiment_RealScenario\Privacy" />
       <recent name="C:\Users\luoyixing\Documents\GitHub\UAV-hybrid-motion-planning-with-privacy-concerns\experiment_code\0109" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.map10UAV">
+  <component name="RunManager" selected="Python.Main_simulation">
     <configuration name="Main_simulation (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UAV-hybrid-motion-planning-with-privacy-concerns" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,6 +105,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness&amp;Privacy/Main_simulation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main_simulation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UAV-hybrid-motion-planning-with-privacy-concerns" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Privacy/Main_simulation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,27 +176,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="readfile (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="UAV-hybrid-motion-planning-with-privacy-concerns" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/animation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2020-UAV_Experiment_RealScenario/Timeliness/animation/readfile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="readfile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UAV-hybrid-motion-planning-with-privacy-concerns" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -299,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Main_simulation" />
         <item itemvalue="Python.map10UAV" />
         <item itemvalue="Python.readfile" />
         <item itemvalue="Python.Main_simulation (1)" />
         <item itemvalue="Python.map10UAV (1)" />
-        <item itemvalue="Python.readfile (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -541,22 +441,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590485807078" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1590559062692">
+    <state width="1899" height="244" key="GridCell.Tab.0.bottom" timestamp="1590646557147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590559062692" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1590559062692">
+    <state width="1899" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590646557147" />
+    <state width="1899" height="244" key="GridCell.Tab.0.center" timestamp="1590646557147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590559062692" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1590559062692">
+    <state width="1899" height="244" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590646557147" />
+    <state width="1899" height="244" key="GridCell.Tab.0.left" timestamp="1590646557147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590559062692" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1590559062692">
+    <state width="1899" height="244" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590646557147" />
+    <state width="1899" height="244" key="GridCell.Tab.0.right" timestamp="1590646557147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590559062692" />
+    <state width="1899" height="244" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590646557147" />
     <state x="288" y="141" key="SettingsEditor" timestamp="1590157182892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
